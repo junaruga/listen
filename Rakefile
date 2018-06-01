@@ -128,7 +128,7 @@ class Releaser
 end
 
 PROJECT_NAME = "Listen"
-CURRENT_VERSION = Listen::VERSION
+CURRENT_VERSION = SassListen::VERSION
 
 def releaser
   $releaser ||= Releaser.new(
