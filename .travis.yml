@@ -5,6 +5,8 @@ before_install:
   - gem install bundler
   - gem update bundler
   - bundle install
+script:
+  - bundle exec rspec spec/acceptance/listen_spec.rb:231
 rvm:
   #- 2.2
   #- 2.3
